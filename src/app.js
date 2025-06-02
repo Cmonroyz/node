@@ -2,7 +2,7 @@ const { getAge, getUUID } = require('./plugins');
 //const {buildMakePerson} = require('./js-foundation/factory');
 const getPokemonById = require('./js-foundation/promeses');
 
-getPokemonById(2)
+getPokemonById(3)
   .then((pokemon) => console.log({pokemon}))
   .catch((error) => console.log('Error fetching Pokémon:'))
   .finally(() => console.log('Finished fetching Pokémon'));
