@@ -9,6 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
-    "dev": "echo 'hola mundo desde dev'"
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "get-age": "^1.0.1",
+    "uuid": "^11.1.0"
   }
 }
