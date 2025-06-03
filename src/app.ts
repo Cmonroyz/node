@@ -1,7 +1,8 @@
-const { getAge, getUUID } = require('./plugins');
+import { buildLogger } from "./plugins/logger.plugin"; 
+// const { getAge, getUUID } = require('./plugins');
 //const {buildMakePerson} = require('./js-foundation/factory');
-const getPokemonById = require('./js-foundation/promeses');
-const { buildLogger } = require('./plugins');
+// const getPokemonById = require('./js-foundation/promeses');
+// const { buildLogger } = require('./plugins');
 
 
 const logger = buildLogger('app.js');
