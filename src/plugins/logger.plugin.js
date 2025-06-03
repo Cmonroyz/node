@@ -27,6 +27,10 @@ const logger = winston.createLogger({
 //     format: winston.format.simple(),
 //   }));
 // }
+logger.add(new winston.transports.Console({
+    format: winston.format.simple(),
+  }
+));
 
 module.exports = function buildLogger (service) {
   return {
