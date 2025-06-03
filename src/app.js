@@ -6,6 +6,7 @@ const { buildLogger } = require('./plugins');
 
 const logger = buildLogger('app.js');
 logger.log('Hola, estoy iniciando la aplicación');
+logger.error('Esto es algo malo');
 
 // getPokemonById(3)
 //   .then((pokemon) => console.log({pokemon}))
